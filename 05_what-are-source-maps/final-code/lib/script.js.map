@@ -1,0 +1,34 @@
+{
+  "version": 3,
+  "file": "script.js",
+  "names": [
+    "container",
+    "React",
+    "createElement",
+    "className",
+    "id",
+    "src",
+    "style",
+    "width",
+    "backgroundColor",
+    "borderRadius",
+    "padding",
+    "htmlFor",
+    "type",
+    "console",
+    "log",
+    "root",
+    "ReactDOM",
+    "createRoot",
+    "document",
+    "querySelector",
+    "render"
+  ],
+  "sources": [
+    "../script.js"
+  ],
+  "sourcesContent": [
+    "const container = (\r\n  <div className=\"container\" id=\"container\">\r\n    <section>\r\n      <p>The library for web and native user interfaces</p>\r\n      <img\r\n        src=\"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg\"\r\n        style={{\r\n          width: 200,\r\n          backgroundColor: 'teal',\r\n          borderRadius: 8,\r\n          padding: 16,\r\n        }}\r\n      />\r\n    </section>\r\n    <section>\r\n      <form>\r\n        <div className=\"input-group\">\r\n          <label htmlFor=\"username\">Username</label>\r\n          <input id=\"username\" />\r\n        </div>\r\n        <div className=\"input-group\">\r\n          <label htmlFor=\"password\">Password</label>\r\n          <input id=\"password\" type=\"password\" />\r\n        </div>\r\n      </form>\r\n    </section>\r\n  </div>\r\n)\r\n\r\nconsole.log(container);\r\n\r\nconst root = ReactDOM.createRoot(document.querySelector('#root'))\r\n\r\nroot.render(container)\r\n"
+  ],
+  "mappings": "AAAA,MAAMA,SAAS,gBACbC,KAAA,CAAAC,aAAA;EAAKC,SAAS,EAAC,WAAW;EAACC,EAAE,EAAC;AAAW,gBACvCH,KAAA,CAAAC,aAAA,+BACED,KAAA,CAAAC,aAAA,YAAG,gDAA8C,CAAI,eACrDD,KAAA,CAAAC,aAAA;EACEG,GAAG,EAAC,oEAAoE;EACxEC,KAAK,EAAE;IACLC,KAAK,EAAE,GAAG;IACVC,eAAe,EAAE,MAAM;IACvBC,YAAY,EAAE,CAAC;IACfC,OAAO,EAAE;EACX;AAAE,EACF,CACM,eACVT,KAAA,CAAAC,aAAA,+BACED,KAAA,CAAAC,aAAA,4BACED,KAAA,CAAAC,aAAA;EAAKC,SAAS,EAAC;AAAa,gBAC1BF,KAAA,CAAAC,aAAA;EAAOS,OAAO,EAAC;AAAU,GAAC,UAAQ,CAAQ,eAC1CV,KAAA,CAAAC,aAAA;EAAOE,EAAE,EAAC;AAAU,EAAG,CACnB,eACNH,KAAA,CAAAC,aAAA;EAAKC,SAAS,EAAC;AAAa,gBAC1BF,KAAA,CAAAC,aAAA;EAAOS,OAAO,EAAC;AAAU,GAAC,UAAQ,CAAQ,eAC1CV,KAAA,CAAAC,aAAA;EAAOE,EAAE,EAAC,UAAU;EAACQ,IAAI,EAAC;AAAU,EAAG,CACnC,CACD,CACC,CAEb;AAEDC,OAAO,CAACC,GAAG,CAACd,SAAS,CAAC;AAEtB,MAAMe,IAAI,GAAGC,QAAQ,CAACC,UAAU,CAACC,QAAQ,CAACC,aAAa,CAAC,OAAO,CAAC,CAAC;AAEjEJ,IAAI,CAACK,MAAM,CAACpB,SAAS,CAAC"
+}
