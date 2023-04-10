@@ -1,0 +1,18 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+button img {
+    max-width: 40px;
+}
