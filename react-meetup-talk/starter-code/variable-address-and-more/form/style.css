@@ -1,0 +1,18 @@
+body {
+  font-family: cursive;
+}
+
+form {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid gray;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+input,
+button {
+  font-family: inherit;
+}
