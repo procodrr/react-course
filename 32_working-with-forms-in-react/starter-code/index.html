@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Track Your Expense</h1>
+      <div class="expense-tracker">
+        <form class="expense-form">
+          <div class="input-container">
+            <label for="title">Title</label>
+            <input id="title" />
+          </div>
+          <div class="input-container">
+            <label for="category">Category</label>
+            <input id="category" />
+          </div>
+          <div class="input-container">
+            <label for="amount">Amount</label>
+            <input id="amount" />
+          </div>
+          <button class="add-btn">Add</button>
+        </form>
+        <table class="expense-table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>
+                <select>
+                  <option value="">All</option>
+                  <option value="grocery">Grocery</option>
+                  <option value="clothes">Clothes</option>
+                  <option value="bills">Bills</option>
+                  <option value="education">Education</option>
+                  <option value="medicine">Medicine</option>
+                </select>
+              </th>
+              <th class="amount-column">
+                <div>
+                  <span>Amount</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    viewBox="0 0 384 512"
+                    class="arrow up-arrow"
+                  >
+                    <title>Ascending</title>
+                    <path
+                      d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+                    />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="10"
+                    viewBox="0 0 384 512"
+                    class="arrow down-arrow"
+                  >
+                    <title>Descending</title>
+                    <path
+                      d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
+                    />
+                  </svg>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Milk</td>
+              <td>Grocery</td>
+              <td>₹40</td>
+            </tr>
+            <tr>
+              <td>Shirt</td>
+              <td>Clothes</td>
+              <td>₹600</td>
+            </tr>
+            <tr>
+              <td>Vegetables</td>
+              <td>Grocery</td>
+              <td>₹100</td>
+            </tr>
+            <tr>
+              <td>Electricity Bill</td>
+              <td>Bills</td>
+              <td>₹1100</td>
+            </tr>
+            <tr>
+              <th>Total</th>
+              <th></th>
+              <th>₹8100</th>
+            </tr>
+          </tbody>
+        </table>
+        <div class="context-menu">
+            <div>Edit</div>
+            <div>Delete</div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
